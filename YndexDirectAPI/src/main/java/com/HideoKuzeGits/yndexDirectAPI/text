@@ -1,0 +1,134 @@
+{
+   "data": [
+      {  /* BannerInfo */
+         "BannerID": (int),
+         "CampaignID": (int),
+         "AdGroupID": (int),
+         "AdGroupName": (string),
+         "Title": (string),
+         "Text": (string),
+         "Href": (string),
+         "Domain": (string),
+         "Geo": (string),
+         "ContactInfo": {
+            /* ContactInfo */
+            "ContactPerson": (string),
+            "Country": (string),
+            "CountryCode": (string),
+            "City": (string),
+            "Street": (string),
+            "House": (string),
+            "Build": (string),
+            "Apart": (string),
+            "CityCode": (string),
+            "Phone": (string),
+            "PhoneExt": (string),
+            "CompanyName": (string),
+            "IMClient": (string),
+            "IMLogin": (string),
+            "ExtraMessage": (string),
+            "ContactEmail": (string),
+            "WorkTime": (string),
+            "OGRN": (string),
+            "PointOnMap": {
+               /* MapPoint */
+               "x": (float),
+               "y": (float),
+               "x1": (float),
+               "y1": (float),
+               "x2": (float),
+               "y2": (float)
+            }
+         },
+         "Phrases": [
+            {  /* BannerPhraseInfo */
+               "BannerID": (int),
+               "CampaignID": (int),
+               "AdGroupID": (int),
+               "PhraseID": (long),
+               "Phrase": (string),
+               "IsRubric": (string),
+               "Price": (float),
+               "ContextPrice": (float),
+               "AutoBroker": (string),
+               "UserParams": {
+                  /* PhraseUserParams */
+                  "Param1": (string),
+                  "Param2": (string)
+               }
+               "StatusPhraseModerate": (string),
+               "AutoBudgetPriority": (string),
+               "Clicks": (int),
+               "Shows": (int),
+               "ContextClicks": (int),
+               "ContextShows": (int),
+               "Min": (float),
+               "Max": (float),
+               "PremiumMin": (float),
+               "PremiumMax": (float),
+               "LowCTRWarning": (string),
+               "LowCTR": (string),
+               "ContextLowCTR": (string),
+               "Coverage": [
+                  {  /* CoverageInfo */
+                     "Probability": (float),
+                     "Price": (float)
+                  }
+                  ...
+               ],
+               "ContextCoverage": [
+                  {  /* CoverageInfo */
+                     "Probability": (float),
+                     "Price": (float)
+                  }
+                  ...
+               ],
+               "Prices": [
+                  (float)
+                  ...
+               ],
+               "CurrentOnSearch": (float),
+               "MinPrice": (float),
+               "StatusPaused": (string),
+               "Currency": (string)
+            }
+            ...
+         ],
+         "StatusActivating": (string),
+         "StatusArchive": (string),
+         "StatusBannerModerate": (string),
+         "StatusPhrasesModerate": (string),
+         "StatusPhoneModerate": (string),
+         "StatusAdImageModerate": (string),
+         "StatusShow": (string),
+         "IsActive": (string),
+         "StatusSitelinksModerate": (string),
+         "Sitelinks": [
+            {  /* Sitelink */
+               "Title": (string),
+               "Href": (string)
+            }
+            ...
+         ],
+         "AdWarnings": [
+            (string)
+            ...
+         ],
+         "FixedOnModeration": (string),
+         "ModerateRejectionReasons": [
+            {  /* RejectReason */
+               "Type": (string),
+               "Text": (string)
+            }
+            ...
+         ],
+         "MinusKeywords": [
+            (string)
+            ...
+         ],
+         "AgeLabel": (string),
+         "AdImageHash": (string)
+      }
+      ...
+   ]
+}
