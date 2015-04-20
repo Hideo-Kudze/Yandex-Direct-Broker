@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="SpringMVCLearn:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringMVCLearn.war">
-      <element id="artifact" artifact-name="SpringMVCLearn:war exploded" />
-    </root>
-  </artifact>
-</component>
